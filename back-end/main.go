@@ -6,12 +6,19 @@ import (
 	"net/http"
 )
 
+var counter = 0
+
 func homePage(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprint(w, "Welcome")
-	log.Println("Serving Home Page")
+}
+
+func incrementCounter(w http.ResponseWriter, r *http.Request) {
+	counter++
+	fmt.Fprint(w, counter)
 }
 
 func main() {
 	http.HandleFunc("/", homePage)
+	http.HandleFunc("/counter", incrementCounter)
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }
