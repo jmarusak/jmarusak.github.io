@@ -20,5 +20,7 @@ func incrementCounter(w http.ResponseWriter, r *http.Request) {
 func main() {
 	http.HandleFunc("/", homePage)
 	http.HandleFunc("/counter", incrementCounter)
+
+	log.Println("Server starting...")
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }
