@@ -1,8 +1,12 @@
 import Foundation
 
 func startLoad() {
+    let sem = DispatchSemaphore.init(value: 0)
+
     let url = URL(string: "https://www.example.com/")!
     let task = URLSession.shared.dataTask(with: url) { data, response, error in
+        defer { sem.signal() }
+
         if let error = error {
             print("\(error)")
             return
@@ -20,6 +24,8 @@ func startLoad() {
         }
     }
     task.resume()
+
+    sem.wait()
 }
 
 startLoad()
