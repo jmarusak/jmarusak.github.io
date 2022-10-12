@@ -1,1 +1,2 @@
-gcloud builds submit --tag gcr.io/martinview4/back-end-counter-api
+gcloud builds submit \
+  --tag gcr.io/$GOOGLE_CLOUD_PROJECT/rest-api:0.2
