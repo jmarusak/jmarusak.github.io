@@ -13,7 +13,7 @@
         <link href="https://your-docusaurus-site.example.com/blog/welcome"/>
         <updated>2025-01-10T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Thank you for stopping by...]]></summary>
-        <content type="html"><![CDATA[<img id="badge" src="https://your-docusaurus-site.example.com/assets/images/photowb-764cf4f84c3c4c74d23307ca2464bea3.jpg" width="30%" alt="Certificate">
+        <content type="html"><![CDATA[<img id="photo" src="https://your-docusaurus-site.example.com/assets/images/photo-764cf4f84c3c4c74d23307ca2464bea3.jpg" width="30%" alt="Photo">
 <p>Thank you for stopping by...</p>]]></content>
     </entry>
 </feed>

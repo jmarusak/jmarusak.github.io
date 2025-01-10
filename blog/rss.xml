@@ -14,7 +14,7 @@
             <guid>https://your-docusaurus-site.example.com/blog/welcome</guid>
             <pubDate>Fri, 10 Jan 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Thank you for stopping by...]]></description>
-            <content:encoded><![CDATA[<img id="badge" src="https://your-docusaurus-site.example.com/assets/images/photowb-764cf4f84c3c4c74d23307ca2464bea3.jpg" width="30%" alt="Certificate">
+            <content:encoded><![CDATA[<img id="photo" src="https://your-docusaurus-site.example.com/assets/images/photo-764cf4f84c3c4c74d23307ca2464bea3.jpg" width="30%" alt="Photo">
 <p>Thank you for stopping by...</p>]]></content:encoded>
         </item>
     </channel>
