@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[947],{6600:e=>{e.exports=JSON.parse('{"authors":[{"name":"Jozef Marusak","key":"jmarusak","page":null,"count":0}]}')}}]);
